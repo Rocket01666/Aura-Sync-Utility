@@ -1,0 +1,28 @@
+[InstallShield Silent]
+Version=v6.00.000
+File=Response File
+[File Transfer]
+OverwrittenReadOnly=NoToAll
+[{5899CD4F-8764-4303-A0D9-C60A62CFC24F}-DlgOrder]
+Dlg0={5899CD4F-8764-4303-A0D9-C60A62CFC24F}-SdWelcome-0
+Count=4
+Dlg1={5899CD4F-8764-4303-A0D9-C60A62CFC24F}-SdAskDestPath-0
+Dlg2={5899CD4F-8764-4303-A0D9-C60A62CFC24F}-SdFinish-0
+Dlg3={5899CD4F-8764-4303-A0D9-C60A62CFC24F}-RebootDialog-0
+[{5899CD4F-8764-4303-A0D9-C60A62CFC24F}-SdWelcome-0]
+Result=1
+[{5899CD4F-8764-4303-A0D9-C60A62CFC24F}-SdAskDestPath-0]
+szDir=C:\Program Files (x86)\ASUS\AURA
+Result=1
+[Application]
+Name=AURA
+Version=1.06.84
+Company=ASUS
+Lang=0009
+[{5899CD4F-8764-4303-A0D9-C60A62CFC24F}-SdFinish-0]
+Result=1
+bOpt1=0
+bOpt2=0
+[{5899CD4F-8764-4303-A0D9-C60A62CFC24F}-RebootDialog-0]
+Result=0
+Choice=0
